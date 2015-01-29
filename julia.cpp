@@ -8,7 +8,7 @@ using namespace std;
 
 int main(){
 	int max=256;
-	int X=200, Y=100;
+	int X=200, Y=200;
 	double cr,ci;
 	map<vector<double>,long> colors;
 	cin >> cr >> ci;
