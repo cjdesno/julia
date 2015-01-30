@@ -34,9 +34,8 @@ SDL_Surface* surface = NULL;
 //The image we will load and show on the screen
 SDL_Surface* screenSurface = NULL;
 
-
-const int SCREEN_WIDTH = 600;
-const int SCREEN_HEIGHT = 600;
+const int SCREEN_WIDTH = 200;
+const int SCREEN_HEIGHT = 200;
 int channels = 3;
 char* map = new char[SCREEN_WIDTH * SCREEN_HEIGHT * channels];
 double cr,ci,rinc=0.001,iinc=0.001;
@@ -57,6 +56,7 @@ void init() {
 
 		//Get window surface
 		screenSurface = SDL_GetWindowSurface(window);
+
 	}
 }
 
